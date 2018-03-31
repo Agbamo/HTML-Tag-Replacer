@@ -105,10 +105,12 @@ public class XML_Tag_Replacer {
    
    String nuevaLinea = linea;
    String lineaAux;
+   int indice1;
+   int indice2;
    
    for(int i = 0; i<etiquetasViejas.size(); i++) {
        
-       if(linea.contains(etiquetasViejas.get(i))) {
+      /* if(linea.contains(etiquetasViejas.get(i))) {
          //String[] parts = linea.split(etiquetasViejas.get(i));
            if(!etiquetasViejas.get(i).contains("/")) {
                lineaAux = linea.substring(0, etiquetasViejas.get(i).length() - 1);
@@ -118,7 +120,21 @@ public class XML_Tag_Replacer {
                nuevaLinea = lineaAux + etiquetasNuevas.get(i);
               }
             }
-        }
+        }*/
+	     if(linea.contains(etiquetasViejas.get(i))) {
+       //String[] parts = linea.split(etiquetasViejas.get(i));
+         if(!etiquetasViejas.get(i).contains("/")) {
+        	 indice1 = linea.indexOf("<");
+        	 indice2 = linea.indexOf(":");
+         }else {
+             indice1 = linea.indexOf("/");
+           	 indice2 = linea.indexOf(":");
+            }
+         lineaAux = linea.substring(indice1+1, indice2);
+          }
+      }
+	   
+	   
         return nuevaLinea;
        }
         //linea.replaceAll(etiquetasViejas.get(i), etiquetasNuevas.get(i));

@@ -1,0 +1,1492 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xbrli:xbrl xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ref="http://www.xbrl.org/2004/ref" xmlns:ff="http://www.xbrl.org/2005/role/restatedLabel" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrll="http://www.xbrl.org/2003/linkbase" xmlns:dgi-est-gen="http://www.xbrl.org.es/es/2008/dgi/gp/est-gen/2008-01-30" xmlns:dgi-lc-es="http://www.xbrl.org.es/es/2008/dgi/gp/lc-es/2008-01-30" xmlns:dgi-lc-int="http://www.xbrl.org.es/es/2008/dgi/gp/lc-int/2008-01-30" xmlns:dgi-types="http://www.xbrl.org.es/es/2008/dgi/gp/types/2008-01-30" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:iic-com="http://www.cnmv.es/iic/com/1-2009/2009-03-31" xmlns:iic-fim="http://www.cnmv.es/iic/fim/1-2009/2009-03-31" xmlns:iic-ges="http://www.cnmv.es/iic/ges/1-2009/2009-03-31" xmlns:iic-com-fon="http://www.cnmv.es/iic/mep/1-2009/2009-03-31">
+  <xbrll:schemaRef xlink:type="simple" xlink:href="iic-fim-2009-03-31.xsd" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+  <xbrli:context id="FIM_T12017_V80340219_da">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/V80340219">BESTINFOND FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2017-01-01</xbrli:startDate>
+      <xbrli:endDate>2017-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FIM_T12017_V80340219_dpp">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/V80340219">BESTINFOND FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2016-10-01</xbrli:startDate>
+      <xbrli:endDate>2016-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FIM_T12017_V80340219_daa">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/V80340219">BESTINFOND FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2017-01-01</xbrli:startDate>
+      <xbrli:endDate>2017-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FIM_T12017_V80340219_dpy">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/V80340219">BESTINFOND FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2016-01-01</xbrli:startDate>
+      <xbrli:endDate>2016-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FIM_T12017_V80340219_dpq2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/V80340219">BESTINFOND FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2016-07-01</xbrli:startDate>
+      <xbrli:endDate>2016-09-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FIM_T12017_V80340219_dpq3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/V80340219">BESTINFOND FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2016-04-01</xbrli:startDate>
+      <xbrli:endDate>2016-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FIM_T12017_V80340219_dpy2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/V80340219">BESTINFOND FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2015-01-01</xbrli:startDate>
+      <xbrli:endDate>2015-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FIM_T12017_V80340219_dpy3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/V80340219">BESTINFOND FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2014-01-01</xbrli:startDate>
+      <xbrli:endDate>2014-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FIM_T12017_V80340219_dpy5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/V80340219">BESTINFOND FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FIM_T12017_V80340219_dly3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/V80340219">BESTINFOND FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2014-01-01</xbrli:startDate>
+      <xbrli:endDate>2016-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FIM_T12017_V80340219_dly5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/V80340219">BESTINFOND FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2016-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FIM_T12017_V80340219_ia">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/V80340219">BESTINFOND FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2017-03-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FIM_T12017_V80340219_ipy">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/V80340219">BESTINFOND FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FIM_T12017_V80340219_ipy2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/V80340219">BESTINFOND FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2015-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FIM_T12017_V80340219_ipy3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.cnmv.es/xbrl/iic/V80340219">BESTINFOND FI</xbrli:identifier>
+      <xbrli:segment>
+        <iic-com:version>1.0.0</iic-com:version>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2014-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="EUR">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="pure">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+  <iic-fim:InformeFIM>
+        <iic-com:RegistroCNMV decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">377</iic-com:RegistroCNMV>
+          <iic-com:PerfilRiesgo contextRef="FIM_T12017_V80340219_ia">Alto</iic-com:PerfilRiesgo>
+          <iic-com-fon:DatosGeneralesClase>            <iic-com-fon:NumeroParticipaciones decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">7735836.60</iic-com-fon:NumeroParticipaciones>
+            <iic-com-fon:NumeroParticipaciones decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">7590928.40</iic-com-fon:NumeroParticipaciones>
+            <iic-com-fon:NumeroParticipes decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">17103</iic-com-fon:NumeroParticipes>
+            <iic-com-fon:NumeroParticipes decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">16682</iic-com-fon:NumeroParticipes>
+            <iic-com-fon:BeneficioBrutoParticipacion decimals="2" contextRef="FIM_T12017_V80340219_da" unitRef="EUR">0.00</iic-com-fon:BeneficioBrutoParticipacion>
+            <iic-com-fon:BeneficioBrutoParticipacion decimals="2" contextRef="FIM_T12017_V80340219_dpp" unitRef="EUR">0.00</iic-com-fon:BeneficioBrutoParticipacion>
+            <iic-com:DistribuyeDividendos contextRef="FIM_T12017_V80340219_da">false</iic-com:DistribuyeDividendos>
+            <iic-com:InversionMinimaDescripcion contextRef="FIM_T12017_V80340219_ia">6.000 Euros. Menores de Edad 200 Euros</iic-com:InversionMinimaDescripcion>
+            <iic-com:Patrimonio decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">1569809220</iic-com:Patrimonio>
+            <iic-com:Patrimonio decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">1425480816</iic-com:Patrimonio>
+            <iic-com:Patrimonio decimals="0" contextRef="FIM_T12017_V80340219_ipy2" unitRef="EUR">1367500818</iic-com:Patrimonio>
+            <iic-com:Patrimonio decimals="0" contextRef="FIM_T12017_V80340219_ipy3" unitRef="EUR">1279143787</iic-com:Patrimonio>
+            <iic-com:ValorLiquidativo decimals="4" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">202.9269</iic-com:ValorLiquidativo>
+            <iic-com:ValorLiquidativo decimals="4" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">187.7874</iic-com:ValorLiquidativo>
+            <iic-com:ValorLiquidativo decimals="4" contextRef="FIM_T12017_V80340219_ipy2" unitRef="EUR">169.3809</iic-com:ValorLiquidativo>
+            <iic-com:ValorLiquidativo decimals="4" contextRef="FIM_T12017_V80340219_ipy3" unitRef="EUR">150.5780</iic-com:ValorLiquidativo>
+            <iic-com-fon:ComisionesAplicadas>
+              <iic-com-fon:ComisionGestion>
+                <iic-com:ComisionGestionCobradaPatrimonio decimals="2" contextRef="FIM_T12017_V80340219_da" unitRef="pure">0.43</iic-com:ComisionGestionCobradaPatrimonio>
+                <iic-com:ComisionGestionCobradaPatrimonio decimals="2" contextRef="FIM_T12017_V80340219_daa" unitRef="pure">0.43</iic-com:ComisionGestionCobradaPatrimonio>
+                <iic-com-fon:ComisionGestionCobrada decimals="2" contextRef="FIM_T12017_V80340219_da" unitRef="pure">0.43</iic-com-fon:ComisionGestionCobrada>
+                <iic-com-fon:ComisionGestionCobrada decimals="2" contextRef="FIM_T12017_V80340219_daa" unitRef="pure">0.43</iic-com-fon:ComisionGestionCobrada>
+                <iic-com-fon:XCode_BaseCalculoComisionGestion_01 contextRef="FIM_T12017_V80340219_daa">01</iic-com-fon:XCode_BaseCalculoComisionGestion_01>
+              </iic-com-fon:ComisionGestion>
+              <iic-com-fon:ComisionDepositario>
+                <iic-com-fon:ComisionDepositarioCobrada decimals="2" contextRef="FIM_T12017_V80340219_da" unitRef="pure">0.01</iic-com-fon:ComisionDepositarioCobrada>
+                <iic-com-fon:ComisionDepositarioCobrada decimals="2" contextRef="FIM_T12017_V80340219_daa" unitRef="pure">0.01</iic-com-fon:ComisionDepositarioCobrada>
+              </iic-com-fon:ComisionDepositario>
+            </iic-com-fon:ComisionesAplicadas>
+          </iic-com-fon:DatosGeneralesClase>
+          <iic-com:InversionesFinancierasInterior>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">ES0113307021</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|BANKIA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">2649619</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.19</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">9347744</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.60</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">ES0117160111</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|CORP FINANCIERA ALBA SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">9420787</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.66</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">8061636</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.51</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">ES0129743318</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|ELECTRIFICACIONES DEL NORTE</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">9921436</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.70</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">10297081</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.66</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">ES0178430E18</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|TELEFONICA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">8084950</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.57</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">4779503</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.30</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">ES0184262212</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|VISCOFAN SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">6465628</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.45</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">6688509</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.43</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">ES0114820113</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|VOCENTO SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">1007208</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.06</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">882642</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.06</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">ES0118900010</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|FERROVIAL SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">5496905</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.35</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">4979739</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.35</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">ES0139140174</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|INMOBILIARIA COLONIAL SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">3774897</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.24</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">3548500</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.25</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">ES0115056139</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|BOLSAS Y MERCADOS ESPANOLES SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">1467694</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.10</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">1630480</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.10</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">ES0124244E34</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|MAPFRE</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">2758993</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.19</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">ES0140609019</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|CRITERIA CAIXA CORPORATION</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">2273464</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.16</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">9965409</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.63</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">ES0157097017</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|ALMIRALL SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">5104938</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.36</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">5264035</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.34</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">ES0173516115</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|REPSOL YPF</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">3416410</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.24</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">3781956</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.24</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">ES0113679I37</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|BANKINTER S.A</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">2487134</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.16</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">2325664</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.16</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">ES0164180012</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|MIQUEL Y COSTAS  AND  MIQUEL SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">7112539</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.45</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">6645350</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.47</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">ES0105015012</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|LAR ESPANA REAL ESTATE SOCIMI S</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">6372697</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.41</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">8177071</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.57</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">ES0121975009</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|CONSTRUCCIONES Y AUXILIAR DE FE</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">12741261</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.89</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">11559653</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.74</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">ES0118594417</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|INDRA SISTEMAS SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">9433808</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.60</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">9100214</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.64</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">ES0132105018</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|ACERINOX SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">8557251</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.55</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">8791042</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.62</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">ES0105075008</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|EUSKALTEL SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">11192726</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.71</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">9816954</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.69</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">ES0105025003</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|MERLIN PROPERTIES SOCIMI SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">6499193</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.41</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">6993834</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.49</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">ES0673516995</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|REPSOL YPF</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">89611</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.01</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">ES0105630315</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|CIE AUTOMOTIVE SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">1608629</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.10</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">3573414</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.25</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">ES0114297015</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|BARON DE LEY</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">5786668</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.41</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">5580866</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.36</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">ES0143416115</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|GAMESA CORP TECNOLOGICA SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">6607914</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.46</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">15218386</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.97</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">ES0109427734</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|ATRESMEDIA CORP DE MEDIOS DE CO</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">3111202</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.22</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizadaTotal>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">144734999</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">10.16</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">155718245</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">9.92</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizadaTotal>
+            <iic-com:InversionesFinancierasRV>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">144734999</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">10.16</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">155718245</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">9.92</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRV>
+            <iic-com:InversionesFinancierasTotalInversion>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">144734999</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">10.16</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">155718245</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">9.92</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasTotalInversion>
+          </iic-com:InversionesFinancierasInterior>
+          <iic-com:InversionesFinancierasExterior>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">IT0000080447</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|CIR COMPAGNIE INDUSTRIALI RIUNI</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">36885605</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">2.59</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">51132803</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">3.26</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">CH0039821084</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|Metallwaren Hldg</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.CHF contextRef="FIM_T12017_V80340219_da">CHF</dgi-lc-int:Xcode_ISO4217.CHF>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">31591123</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">2.22</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">36655773</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">2.34</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">BE0003741551</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|Roularta</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">7953759</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.56</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">8683071</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.55</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">NL0011821202</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|ING GROEP NV</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">29535052</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">2.07</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">21781685</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">1.39</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">PTGAL0AM0009</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|GALP ENERGIA SGPS SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">9030857</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.63</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">9053131</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.58</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">IT0003850929</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|Esprinet</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">6614742</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.42</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">8013788</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.56</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">GB0006731235</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|ASSOCIATED BRITISH FOODS PLC</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.GBP contextRef="FIM_T12017_V80340219_da">GBP</dgi-lc-int:Xcode_ISO4217.GBP>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">4353380</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.28</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">4594605</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.32</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">US20440T2015</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|CIA BRASILEIRA DE DISTRIBUICAO</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.USD contextRef="FIM_T12017_V80340219_da">USD</dgi-lc-int:Xcode_ISO4217.USD>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">37043311</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">2.36</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">32335479</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">2.27</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">FI0009005870</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|Konecranes Inter</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">15086765</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.96</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">12094591</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.85</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">NL0009767532</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|ACCELL GROUP EUR</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">6243620</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.40</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">5333245</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.37</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">CH0244017502</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|CONZZETA AG-REG</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.CHF contextRef="FIM_T12017_V80340219_da">CHF</dgi-lc-int:Xcode_ISO4217.CHF>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">2487962</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.16</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">2008803</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.14</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">IT0000062072</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|ASSICURAZZIONI GENERALI</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">31035915</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">2.18</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">TW0001507002</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|YUNGTAY ENGINEERING CO</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.TWD contextRef="FIM_T12017_V80340219_da">TWD</dgi-lc-int:Xcode_ISO4217.TWD>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">8917068</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.63</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">10941178</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.70</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">DE000BAY0017</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|BAYER AG</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">22633560</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">1.59</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">24670192</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">1.57</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">GB00BMJ6DW54</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|INFORMA PLC</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.GBP contextRef="FIM_T12017_V80340219_da">GBP</dgi-lc-int:Xcode_ISO4217.GBP>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">36586523</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">2.57</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">38511932</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">2.45</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">NL0012015705</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|TAKEAWAY.COM HOLDING BV EUR</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">90123</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.01</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">2772852</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.18</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">US0846707026</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|BERKSHIRE HATHAWAY INC-CL A</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.USD contextRef="FIM_T12017_V80340219_da">USD</dgi-lc-int:Xcode_ISO4217.USD>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">15488</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.00</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">15641</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.00</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">CH0012032048</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|ROCHE HOLDING</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.CHF contextRef="FIM_T12017_V80340219_da">CHF</dgi-lc-int:Xcode_ISO4217.CHF>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">35046614</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">2.46</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">38595949</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">2.46</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">IT0005239360</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|UNICREDITO ITALIANO</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">24374246</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">1.55</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">DE0007500001</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|THYSSEN KRUPP AG</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">37977746</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">2.42</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">37448439</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">2.63</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">LU0307018795</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|SAF-HOLLAND SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">7697414</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.49</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">4907523</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.34</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">PTSEM0AM0004</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|SEMAPA SOCIEDADE DE INVESTIMENT</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">20634643</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">1.31</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">19335959</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">1.36</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">FR0000131104</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|BNP PARIBAS</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">22809972</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">1.60</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">35310158</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">2.25</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">GB0004544929</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|IMPERIAL TOBACCO GROUP PLC</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.GBP contextRef="FIM_T12017_V80340219_da">GBP</dgi-lc-int:Xcode_ISO4217.GBP>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">37714939</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">2.65</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">41707433</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">2.66</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">DE0005190037</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|BMW</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">27241126</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">1.91</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">27660797</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">1.76</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">DE0007193500</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|Koenig &amp; Bauer</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">17986421</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">1.26</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">24735011</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">1.58</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">FI0009007835</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|METSO OYJ</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">10123070</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.71</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">10601207</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.68</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">DE0005111702</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|ZOOPLUS AG</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">15022017</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">1.05</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">17018771</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">1.08</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">PTEDP0AM0009</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|EDP   ENERGIAS DE PORTUGAL SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">3077465</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.22</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">3376279</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.22</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">FR0013204336</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|Lambert dur Chan</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">9556628</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.61</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">9635145</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.68</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">FR0000130809</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|SOCIETE GENERALE SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">22672125</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">1.44</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">28369587</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">1.99</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">GB0000566504</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|BHP BILLITON</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.GBP contextRef="FIM_T12017_V80340219_da">GBP</dgi-lc-int:Xcode_ISO4217.GBP>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">25650327</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">1.63</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">GB0006776081</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|PEARSON PLC</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.GBP contextRef="FIM_T12017_V80340219_da">GBP</dgi-lc-int:Xcode_ISO4217.GBP>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">41274933</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">2.63</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">GB0007188757</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|RIO TINTO PLC</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.GBP contextRef="FIM_T12017_V80340219_da">GBP</dgi-lc-int:Xcode_ISO4217.GBP>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">25525969</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">1.63</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">GB00BTC0LB89</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|DFS FURNITURE PLC (GBP)</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.GBP contextRef="FIM_T12017_V80340219_da">GBP</dgi-lc-int:Xcode_ISO4217.GBP>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">3526809</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.22</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">IT0000070786</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|Cofide</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">10954536</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.77</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">18056296</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">1.15</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">SE0000115446</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|VOLVO AB</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.SEK contextRef="FIM_T12017_V80340219_da">SEK</dgi-lc-int:Xcode_ISO4217.SEK>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">33119887</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">2.32</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">34542249</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">2.20</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">GB0000282623</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|AMEC FOSTER WHEELER PLC</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.GBP contextRef="FIM_T12017_V80340219_da">GBP</dgi-lc-int:Xcode_ISO4217.GBP>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">8062514</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.57</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">KR7005931001</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|SAMSUNG ELECTRONICS CO LTD</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.KRW contextRef="FIM_T12017_V80340219_da">KRW</dgi-lc-int:Xcode_ISO4217.KRW>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">14401423</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">1.01</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">17139676</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">1.09</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">NL0000395903</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|WOLTERS KLUWER CVA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">13354280</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.85</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">36195831</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">2.54</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">CH0024590272</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|ALSO HOLDING</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.CHF contextRef="FIM_T12017_V80340219_da">CHF</dgi-lc-int:Xcode_ISO4217.CHF>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">31258489</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">1.99</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">22796322</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">1.60</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">NO0003078800</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|TGS Nopec Geo</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.NOK contextRef="FIM_T12017_V80340219_da">NOK</dgi-lc-int:Xcode_ISO4217.NOK>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">21760773</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">1.39</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">16243794</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">1.14</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">GB00BKX5CN86</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|JUST EAT PLC</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.GBP contextRef="FIM_T12017_V80340219_da">GBP</dgi-lc-int:Xcode_ISO4217.GBP>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">13477652</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.86</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">US52634T2006</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|LENTA LTD</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.USD contextRef="FIM_T12017_V80340219_da">USD</dgi-lc-int:Xcode_ISO4217.USD>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">37839053</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">2.41</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">44482525</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">3.12</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">LU0569974404</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|APERAM W/I</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">23032772</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">1.47</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">21368611</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">1.50</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">IT0000072618</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|INTESA SANPAOLO</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">29761668</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">2.09</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">31233804</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">1.99</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">FR0000073298</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|Ipsos</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">5275611</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.37</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">FR0000121725</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|Dassault Aviat</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">50090534</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">3.51</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">56238610</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">3.58</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">IT0003497176</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|TELECOM ITALIA SPA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">12923939</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.91</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">12867502</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.82</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">BE0003565737</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|KBC GROEP</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">21712976</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">1.52</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">9867003</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.63</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">BE0974259880</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|D Ieteren SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">5628380</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.39</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">5883698</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.37</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">GB00B63QSB39</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|GREGGS PLC</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.GBP contextRef="FIM_T12017_V80340219_da">GBP</dgi-lc-int:Xcode_ISO4217.GBP>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">9039161</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.63</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">9700341</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.62</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">PTIBS0AM0008</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|IBERSOL SGPS SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">11440902</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.80</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">13374146</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.85</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">KR7005382007</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|HYUNDAI MOTOR CO</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.KRW contextRef="FIM_T12017_V80340219_da">KRW</dgi-lc-int:Xcode_ISO4217.KRW>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">20811722</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">1.33</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">18786426</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">1.32</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">GB00B03MLX29</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|ROYAL DUTCH SHELL PLC</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.GBP contextRef="FIM_T12017_V80340219_da">GBP</dgi-lc-int:Xcode_ISO4217.GBP>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">17040046</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">1.09</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">22172677</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">1.56</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">JP3551520004</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|DENTSU INC</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.JPY contextRef="FIM_T12017_V80340219_da">JPY</dgi-lc-int:Xcode_ISO4217.JPY>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">22380366</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">1.43</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">19796945</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">1.39</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">DE000HLAG475</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|HAPAG-LLOYD</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">9844423</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.63</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">FR0000125585</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|CASINO GUICHARD PERRACHON</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">28203843</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">1.98</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">25765151</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">1.64</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">IT0004781412</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|UNICREDITO ITALIANO</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">5859233</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.41</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">GB0007980591</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|BP PLC</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.GBP contextRef="FIM_T12017_V80340219_da">GBP</dgi-lc-int:Xcode_ISO4217.GBP>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">24597324</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">1.73</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">22041609</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">1.40</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">FI0009002422</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|OUTOKUMPU</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">9685579</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.68</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">10408723</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.66</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">PTALT0AE0002</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|ALTRI SGPS SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">5213970</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.37</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">4718455</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.30</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">PTSON0AM0001</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|SONAE</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.EUR contextRef="FIM_T12017_V80340219_da">EUR</dgi-lc-int:Xcode_ISO4217.EUR>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">3861811</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.27</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">1407909</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.09</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">BRVVARCDAM10</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|GLOBEX UTILDADES</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.BRL contextRef="FIM_T12017_V80340219_da">BRL</dgi-lc-int:Xcode_ISO4217.BRL>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">3542543</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.25</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">5760309</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.37</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">GB00B07KD360</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|COBHAM PLC</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.GBP contextRef="FIM_T12017_V80340219_da">GBP</dgi-lc-int:Xcode_ISO4217.GBP>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">20319884</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">1.29</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">KR7005930003</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|SAMSUNG ELECTRONICS CO LTD</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.KRW contextRef="FIM_T12017_V80340219_da">KRW</dgi-lc-int:Xcode_ISO4217.KRW>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">9228645</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.65</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">11224325</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.72</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">CH0024638212</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|SCHINDLER HOLDING AG</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.CHF contextRef="FIM_T12017_V80340219_da">CHF</dgi-lc-int:Xcode_ISO4217.CHF>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">9612703</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.61</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">15774079</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">1.11</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">GB0000031285</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|ABERDEEN ASSET MANAGEMENT PLC</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.GBP contextRef="FIM_T12017_V80340219_da">GBP</dgi-lc-int:Xcode_ISO4217.GBP>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">4561839</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.32</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">JE00BD9WR069</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|UNITED BUSINESS MEDIA LTD</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.GBP contextRef="FIM_T12017_V80340219_da">GBP</dgi-lc-int:Xcode_ISO4217.GBP>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">13994019</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.98</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">LU1072616219</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|B&amp;M EUROPEAN VALUE RETAIL</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.GBP contextRef="FIM_T12017_V80340219_da">GBP</dgi-lc-int:Xcode_ISO4217.GBP>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">6992829</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.49</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">BRHYPEACNOR0</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|HYPERMARCAS SA</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.BRL contextRef="FIM_T12017_V80340219_da">BRL</dgi-lc-int:Xcode_ISO4217.BRL>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">8567078</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">0.60</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">9659780</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.62</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizada>
+              <iic-com:CodigoISIN contextRef="FIM_T12017_V80340219_ia">CA5359195008</iic-com:CodigoISIN>
+              <iic-com:InversionesFinancierasDescripcion contextRef="FIM_T12017_V80340219_ia">ACCIONES|LIONS GATE ENTERTAINMENT COR</iic-com:InversionesFinancierasDescripcion>
+              <dgi-lc-int:Xcode_ISO4217.USD contextRef="FIM_T12017_V80340219_da">USD</dgi-lc-int:Xcode_ISO4217.USD>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">11442917</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">0.73</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizada>
+            <iic-com:InversionesFinancierasRVCotizadaTotal>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">1101711315</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">77.32</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">1246009149</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">79.40</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRVCotizadaTotal>
+            <iic-com:InversionesFinancierasRV>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">1101711315</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">77.32</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">1246009149</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">79.40</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasRV>
+            <iic-com:InversionesFinancierasTotalInversion>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">1101711315</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">77.32</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasImporte>
+                <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">1246009149</iic-com:InversionesFinancierasValor>
+                <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">79.40</iic-com:InversionesFinancierasPorcentaje>
+              </iic-com:InversionesFinancierasImporte>
+            </iic-com:InversionesFinancierasTotalInversion>
+          </iic-com:InversionesFinancierasExterior>
+          <iic-com:InversionesFinancierasTotal>
+            <iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ipy" unitRef="EUR">1246446314</iic-com:InversionesFinancierasValor>
+              <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ipy" unitRef="pure">87.48</iic-com:InversionesFinancierasPorcentaje>
+            </iic-com:InversionesFinancierasImporte>
+            <iic-com:InversionesFinancierasImporte>
+              <iic-com:InversionesFinancierasValor decimals="0" contextRef="FIM_T12017_V80340219_ia" unitRef="EUR">1401727394</iic-com:InversionesFinancierasValor>
+              <iic-com:InversionesFinancierasPorcentaje decimals="2" contextRef="FIM_T12017_V80340219_ia" unitRef="pure">89.32</iic-com:InversionesFinancierasPorcentaje>
+            </iic-com:InversionesFinancierasImporte>
+          </iic-com:InversionesFinancierasTotal>
+</iic-fim:InformeFIM>
+</xbrli:xbrl>
